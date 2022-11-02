@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,13 +17,18 @@
             <nav>
                 <img src="images/sujoy.png" class="logo">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#technologies-heading">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#Contacts">Contact</a></li>
                 </ul>
-            </nav>
+                <button class="hamburger ">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+             </nav>
             <div class="header-text">
                 <p>
                     Web Developer.
@@ -36,7 +44,7 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/about img1.jpeg" alt="">
+                    <img src="images/about img 1.jpeg" alt="">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">A Brief Introduction about me:</h1>
@@ -54,24 +62,25 @@
     </div>
     <div class="skills-pic">
         <div>
-            <img class="pictures-html" src="Images/html.png" alt="" />
+            <img class="pictures-html skind" src="Images/html.png" alt="" />
         </div>
         <div>
-            <img class="pictures-css"  src="Images/css.png" alt="" />
+            <img class="pictures-css skind"  src="Images/css.png" alt="" />
         </div>
         <div>
-            <img class="pictures-javascript" src="Images/java.png" alt="" />
+            <img class="pictures-javascript skind" src="Images/java.png" alt="" />
         </div>
         <div>
-            <img class="pictures-bootstrap" src="Images/bootstrap.jpg" alt="" />
+            <img class="pictures-bootstrap skind" src="Images/bootstrap.jpg" alt="" />
         </div>
         <div>
-            <img class="pictures-git" src="Images/git.png" alt="" />
+            <img class="pictures-git skind" src="Images/git.png" alt="" />
         </div>
         
         
     </div>
 </div>
+
 <div class="projects" id="projects">
     <h1>Projects</h1>
     <br> 
@@ -83,16 +92,12 @@
             <img src="Images/project.png" alt="" class="img" />
         </div>
         <div class="pro-content">
-            <h3>Portfolio</h3>
-            <h6>Skills : HTML , CSS , JAVASCRIPT</h6>
-            <p>
-                A Portfolio page describing about me , my skills and interests.
+            <p>It is my first project which I developed for the event LEAD 3.0 which was organised by IEEE.</p>
+            <p>Some of the skills which I used for this project are HTML, CSS, JAVASCRIPT.</p>
                 <br />
                 <img src="Images/git.png" class="git-portfolio" >
                 <br />
-                <a href=" https://github.com/IshanPandey703/Portfolio"
-                    >Source Code</a
-                >
+                <a href="https://github.com/sujoyyyyy" class="btn btn--white" >Source Code</a>
             </p>
         </div>
     </div>
@@ -121,5 +126,7 @@
         /></a>
     </div>
 </div>
+<!--scripts are here-->
+<script src="main.js"></script>
 </body>
 </html>
